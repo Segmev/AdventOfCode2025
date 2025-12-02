@@ -1,7 +1,7 @@
 use std::fs;
 
 pub fn run() {
-    let input = fs::read_to_string("./inputs/day01/1.txt")
+    let input = fs::read_to_string("./inputs/day01/input.txt")
         .expect("Should have been able to read the file");
     part1(&input);
     part2(&input);

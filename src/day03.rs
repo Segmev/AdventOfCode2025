@@ -1,10 +1,12 @@
 use std::fs;
 
 pub fn run() {
+    println!("day 03");
     let input = fs::read_to_string("./inputs/day03/input.txt")
         .expect("Should have been able to read the file");
     part(&input, 2);
     part(&input, 12);
+    println!("===");
 }
 
 fn part(input: &String, bat_count: usize) {

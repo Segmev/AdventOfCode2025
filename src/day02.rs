@@ -1,12 +1,10 @@
 use std::fs;
 
 pub fn run() {
-    println!("day 02");
     let input = fs::read_to_string("./inputs/day02/input.txt")
         .expect("Should have been able to read the file");
     part1(&input);
     part2(&input);
-    println!("===");
 }
 
 fn is_valid_id(nb: u64) -> bool {

@@ -41,7 +41,7 @@ fn part1(input: &String) {
     for nb in results.iter() {
         output += *nb;
     }
-    println!("p1: {output}",);
+    println!("p1: {output}");
 }
 
 fn part2(input: &String) {
@@ -87,5 +87,5 @@ fn part2(input: &String) {
         }
     }
 
-    println!("p2: {output}",);
+    println!("p2: {output}");
 }

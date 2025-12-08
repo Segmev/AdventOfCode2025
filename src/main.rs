@@ -5,6 +5,7 @@ mod day03;
 mod day04;
 mod day05;
 mod day06;
+mod day07;
 
 fn main() {
     let days: Vec<(&str, fn())> = vec![
@@ -14,6 +15,7 @@ fn main() {
         ("04", day04::run),
         ("05", day05::run),
         ("06", day06::run),
+        ("07", day07::run),
     ];
 
     for (day, func) in days.iter() {
